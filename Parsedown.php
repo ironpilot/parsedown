@@ -415,7 +415,7 @@ class Parsedown
                 'element' => array(
                     'name' => 'pre',
                     'handler' => 'element',
-                    'text' => $Element,
+                    'text' => highlight_string($Element, true),
                 ),
             );
 
